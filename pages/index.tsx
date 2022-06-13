@@ -3,7 +3,7 @@ const Home = () => {
 
   return (
     <>
-     I AM A CONQUERER
+     YES I CAN
       
     </>
   )
