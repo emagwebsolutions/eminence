@@ -3,7 +3,7 @@ const Home = () => {
 
   return (
     <>
-      FAITH NEVER FAILS
+     I AM A CONQUERER
       
     </>
   )
