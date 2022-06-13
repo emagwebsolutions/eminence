@@ -1,7 +1,7 @@
 
 const Headertwo = ({heading,subheading}:  {
-    heading: String
-    subheading: String
+    heading: string
+    subheading: string
 }) => {
     return (
         <div className="headertwo">

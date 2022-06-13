@@ -3,7 +3,7 @@ import Head from "next/head"
 
 
 const Meta = ( { title }: {
-  title: String
+  title: string
 } ) => {
   return (
         <Head>
