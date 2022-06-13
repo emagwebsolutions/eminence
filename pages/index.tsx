@@ -3,7 +3,7 @@ const Home = () => {
 
   return (
     <>
-      GOD IS IN CONTROL
+      NEVER BE AFRAID HE THAT IS IN YOU IS GREATER
       
     </>
   )
