@@ -1,7 +1,10 @@
+import styles from '../styles/Hamburger.module.scss'
 
-const Hamburgerclose = ({closenav}: {
+type obj = {
     closenav: (e:React.MouseEvent<HTMLDivElement>)=> void
-})=>{
+}
+
+const Hamburgerclose = ({closenav}: obj)=>{
 
     return (
         <div className="hamburgerclose" style={{display: 'none'}}>
