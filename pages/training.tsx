@@ -29,7 +29,7 @@ const Training = () => {
 
         </div>
         <div>
-        <Image src="/garm2.jpg" alt="Garment Construction" width="5" height="4" layout="responsive" />
+        <Image src="/garm2.jpeg" alt="Garment Construction" width="5" height="4" layout="responsive" />
         </div>
      </div>
 
@@ -73,7 +73,7 @@ const Training = () => {
      
      <div className="container cont-my">
         <div>
-        <Image src="/weddinggown.jpg" alt="Wedding Gowns"  width="5" height="4" layout="responsive" />
+        <Image src="/weddinggown.jpeg" alt="Wedding Gowns"  width="5" height="4" layout="responsive" />
         </div>
         <div>
           <h1>Wedding Gowns </h1>
