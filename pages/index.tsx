@@ -3,7 +3,7 @@ const Home = () => {
 
   return (
     <>
-     PEACE BE STILL
+    JOKE NO MORE
       
     </>
   )
