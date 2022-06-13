@@ -3,7 +3,7 @@ const Home = () => {
 
   return (
     <>
-     YES I CAN
+     PEACE BE STILL
       
     </>
   )
