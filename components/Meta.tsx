@@ -1,11 +1,10 @@
 import React from "react"
 import Head from "next/head"
 
-type Title = {
-  title: String
-}
 
-const Meta = ( { title }: Title ) => {
+const Meta = ( { title }: {
+  title: String
+} ) => {
   return (
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1" />

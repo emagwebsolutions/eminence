@@ -1,11 +1,11 @@
 import styles from '../styles/Hamburger.module.scss'
 
-type obj = {
+
+
+const Hamburgeropen = ({opennav,name}: {
     opennav: (e:React.MouseEvent<HTMLDivElement>)=> void
     name: string
-}
-
-const Hamburgeropen = ({opennav,name}: obj)=>{
+})=>{
 
     return (
         <div className="hamburgeropen" style={{display: 'none'}}>

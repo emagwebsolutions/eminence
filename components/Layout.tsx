@@ -3,11 +3,10 @@ import Nav from "./nav/Nav"
 import Footer from "./footer/Footer"
 import Meta from "./Meta"
 
-type Children = {
-  children: React.ReactNode
-}
 
-const Layout = ( { children }: Children ) => {
+const Layout = ( { children }: {
+  children: React.ReactNode
+}) => {
   return (
           <>
           <Meta title="EMINENCE NEEDLE ART" />

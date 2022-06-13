@@ -1,9 +1,8 @@
 
-type Headings = {
+const Headertwo = ({heading,subheading}:  {
     heading: String
     subheading: String
-}
-const Headertwo = ({heading,subheading}: Headings) => {
+}) => {
     return (
         <div className="headertwo">
             <h4>{subheading}</h4>
