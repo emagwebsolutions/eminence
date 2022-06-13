@@ -1,5 +1,5 @@
 import Headertwo from "../components/Headertwo"
-import Image from 'next/Image'
+import Image from 'next/image'
 const Training = () => {
 
   const headings = {
