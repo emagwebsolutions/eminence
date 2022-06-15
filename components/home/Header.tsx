@@ -26,6 +26,8 @@ const Header = () => {
                     background-image: url('./header.jpg');
                     background-size: cover;
                     background-position: center;
+                    border: solid .7rem #777;
+                    margin-top: 3em;
                 }
             }
                 

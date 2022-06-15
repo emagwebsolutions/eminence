@@ -8,11 +8,14 @@ const Layout = ( { children }: Children ) => {
   return (
           <>
           <Meta title="EMINENCE NEEDLE ART" />
+          <div className="main-wrapper">
             <Nav />
             <main>
               { children }
             </main>
             <Footer />
+            </div>
+  
           </>
       )
 }

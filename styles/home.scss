@@ -80,6 +80,12 @@
 }
 
 @media(max-width: 35em){
+    .mob-container{
+        display: flex;
+        div{
+            flex: 1rem 1 1;
+        }
+    }
     .heading-logo{
         display: none;
     }
@@ -95,19 +101,81 @@
             align-items: center;
             background-color: white(.8);
             position: absolute;
-            width: 60rem;
-            height: 50rem;
+            width: 30rem;
+            height: 40rem;
             bottom: -5rem;
             left: 50%;
             transform: translateX(-50%);
             box-shadow: 2rem 2rem 2rem muted(.2);
-            padding: 3em;
+            padding: 1em;
             text-align: center;
             h1{
-                font-size: 5rem;
+                font-size: 3rem;
                 color: black();
                 font-family: 'Parisienne', cursive;
             }
         }
     }
+
+    .aboutus{
+        padding-top: 5em;
+        padding-bottom: 3rem;
+        text-align: center;
+        h1{
+            font-size: 3rem;
+            color: black();
+            margin-bottom: .5em;
+            font-family: 'Parisienne', cursive;
+        }
+    
+        h2{
+            color: muted();
+        }
+    
+        .fa{
+            font-size: 4rem;
+            color: #ce5a9b;
+            border: solid .3rem #ce5a9b;
+            width: 10rem;
+            height: 10rem;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-inline: auto;
+            margin-bottom: .6em;
+        }
+    }
+
+
+
+    .last-section{
+  
+        .instagram{
+            background-color: #e4ccc8;
+            color: #090400!important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2em;
+            a{
+                font-size: 1.2rem;
+                text-decoration: underline;
+            }
+        }
+        .container{
+            gap: 0!important;
+        }
+        .home-para{
+            padding-top: 4rem;
+            text-align: center;
+        }
+    }
+
+
+
+
+
+
+
 }

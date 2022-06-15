@@ -68,9 +68,6 @@ const Training = () => {
         </div>
      </div>
 
-
-
-     
      <div className="container cont-my">
         <div>
         <Image src="/weddinggown.JPG" alt="Wedding Gowns"  width="5" height="4" layout="responsive" />

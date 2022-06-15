@@ -5,7 +5,6 @@ import React, { useRef,useEffect } from 'react'
 
 
 const Nav = ()=>{
-
     const nav = useRef<HTMLElement>(null)
 
     const opennav = ( e:React.MouseEvent<HTMLDivElement> )=>{
@@ -41,8 +40,7 @@ const Nav = ()=>{
 
     return (
         <> 
-        <Hamburgeropen opennav = {opennav}  name="Eminence
-Needle Art" />
+        <Hamburgeropen opennav = {opennav}  name="Eminence Needle Art" />
 
         <nav data-nav="false" ref={nav} className="nav">
             <div className="nav-wrapper">
