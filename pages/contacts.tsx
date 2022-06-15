@@ -14,7 +14,7 @@ const Contacts = () => {
     <>
      <Headertwo {...headings} />
 
-     <div className="container">
+     <div className="container mobile-contact-container">
       <div>
         <div>
           <i className="fa fa-map-marker"></i>

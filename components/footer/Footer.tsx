@@ -1,5 +1,3 @@
-
-import  Link  from 'next/link'
 import Image from 'next/image'
 
 const Footer = ()=>{
@@ -35,16 +33,16 @@ const Footer = ()=>{
             <div className="social-wrapper">
                 <p>GET SOCIAL WITH US</p>
                 <div className="social-box">
-                    <a href="https://www.facebook.com/">
+                    <a href="https://www.facebook.com/eminence.needleart">
                         <i title="Facebook" className="fa fa-facebook"></i>
                     </a>
                     <a href="https://www.twitter.com/">
                         <i title="Twitter" className="fa fa-twitter"></i>
                     </a>
-                    <a href="https://www.facebook.com/">
+                    <a href="https://www.instagram.com/eminence_needleart/">
                         <i title="Instagram" className="fa fa-instagram"></i>
                     </a>
-                    <a href="https://www.facebook.com/">
+                    <a href="https://wa.me/233245854747?text=Hello%2C%20I%20want%20to%20make%20enquiries">
                         <i className="fa fa-whatsapp"></i>
                     </a>
                 </div>

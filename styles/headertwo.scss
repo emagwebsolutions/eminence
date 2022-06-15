@@ -3,7 +3,7 @@
 .headertwo{
     width: 100vw;
     text-align: center;
-    padding-block: 4em;
+
     h1{
         font-size: 6rem;
         color: black();
@@ -17,3 +17,25 @@
 
 
 }
+
+
+
+@media(max-width: 35em){
+
+    .headertwo{
+        width: 100vw;
+        text-align: center;
+        padding-block: 4em;
+        h1{
+            font-size: 4rem;
+            color: black();
+        }
+        h4{
+            color: muted();
+            font-family: 'Arimo';
+            font-size: 1.4rem;
+        }
+    }
+    
+    
+    }

@@ -15,3 +15,25 @@
 
 
 }
+
+
+
+@media(max-width: 35em){
+
+    .cont-my{
+        margin-block: 4em;
+        padding: 2em;
+        h1{
+            font-size: 3rem;
+            color: muted();
+            line-height: 1;
+            text-align: center;
+        }
+        p{
+            text-align: justify;
+        }
+    
+    }
+    
+    
+    }
