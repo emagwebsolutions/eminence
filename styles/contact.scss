@@ -5,3 +5,22 @@
      }
 
 }
+
+@media(min-width: 35em){
+    .contact-details-box{
+        &>div{
+            margin-top: 1.4em;
+            display: flex;
+            span i{
+                width: 4rem;
+                height: 4rem;
+                border: solid .1rem #333;
+                margin-right: 1.2em;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}

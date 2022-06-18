@@ -15,45 +15,68 @@ const Contacts = () => {
      <Headertwo {...headings} />
 
      <div className="container mobile-contact-container">
-      <div>
+      <div className="contact-details-box">
         <div>
-          <i className="fa fa-map-marker"></i>
-          <p>
+          <span>
+            <i className="fa fa-map-marker"></i>
+          </span>
+
+          <span>
           Musuku Junction/ Roundabout, Opposite just Torch Restaurant/ Pub, Kwabenya .
-          </p>
+          </span>
         </div>
    
 
-       <p>
+       <div>
+        <span>
         <i className="fa fa-phone"></i>
-        : 233 (0) 245854747
-       </p>
+        </span>
+        <span>
+        +233 (0) 245854747
+        </span>
+      
+       </div>
 
-       <p>
+       <div>
+        <span>
         <i className="fa fa-whatsapp"></i>
-        233 ( 0) 245854747
-       </p>
+        </span>
+        <span>
+         +233 ( 0) 245854747
+        </span>
+       </div>
 
-       <p>
+       <div>
+        <span>
         <i className="fa fa-instagram"></i>
-        eminence_needleart
-       </p>
+        </span>
+        <span>
+            eminence_needleart
+        </span>
+       </div>
 
-       <p>
-        <i className="fa fa-envelope"></i>
-        eminenceneedleart@gmail.com
-       </p>
+       <div>
+        <span>
+          <i className="fa fa-envelope"></i>
+        </span>
+        <span>
+          eminenceneedleart@gmail.com
+        </span>
+       </div>
 
 
-
-      <p>
-        <i className="fa fa-facebook"></i>
-        eminence needleart
-      </p>
+      <div>
+        <span>
+          <i className="fa fa-facebook"></i>
+        </span>
+        <span>  
+          eminence needleart
+        </span>
+      </div>
 
       </div>
       <div>
-        <Image src="/pic2.jpeg" alt="Our Shop"  width="3" height="5" layout="responsive" />
+        <Image src="/contacts.jpg" alt="Our Shop"  width="4" height="4" layout="responsive" />
       </div>
      </div>
 

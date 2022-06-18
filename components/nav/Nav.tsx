@@ -2,6 +2,7 @@ import  Link  from 'next/link'
 import Hamburgeropen from './Hamburgeropen'
 import Hamburgerclose from './Hamburgerclose'
 import React, { useRef,useEffect } from 'react'
+import Image from 'next/image'
 
 
 const Nav = ()=>{
@@ -41,38 +42,39 @@ const Nav = ()=>{
     return (
         <> 
         <Hamburgeropen opennav = {opennav}  name="Eminence Needle Art" />
-
+  
         <nav data-nav="false" ref={nav} className="nav">
             <div className="nav-wrapper">
 
             <Hamburgerclose closenav = {closenav}  />
 
+            <Image src="/logo.png"  width="6" height="4" alt="" layout="responsive" />
+           
             <ul>
                 <li className="active">
                     <Link href="/">
-                        <a onClick={closenav}>HOME</a>
+                        <a onClick={closenav}>Home</a>
                     </Link>
                 </li>
 
                 <li>
                     <Link href="/training">
-                        <a onClick={closenav}>TRAINING</a>
+                        <a onClick={closenav}>Training</a>
                     </Link>
                 </li>
 
                 <li className="heading-logo">
-                        <h1>Eminence </h1>
-                        <p>NEEDLE ART </p>
+                        <Image src="/logo.png" width="10" height="6" alt="" layout="responsive" />
                 </li>
 
                 <li>
                     <Link href="/about">
-                        <a onClick={closenav}>ABOUT US</a>  
+                        <a onClick={closenav}>About Us</a>  
                     </Link>
                 </li>
                 <li>
                     <Link href="/contacts">
-                        <a onClick={closenav}>CONTACT US</a>
+                        <a onClick={closenav}>Contact Us</a>
                     </Link>
                 </li>
   

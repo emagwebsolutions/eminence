@@ -8,13 +8,13 @@ const Home = () => {
     <Header />
 
     <div className="container">
-      <p className="home-para">
+      <p className="home-para pt-2 pb-2 text-center">
       We deal in all kinds of fabrics, Dummies, sewing machines and Accessories, African $ Continental Wear , Training in Fashion Designing
       </p>
     </div>
 
-    <div className="container mob-container">
-      <div>    
+    <div className="container mob-container ">
+      <div className="boxBorder">    
         <Image
           src="/pic2.jpeg"
           alt="Picture of the author"
@@ -24,7 +24,7 @@ const Home = () => {
         />
       </div>
 
-      <div>
+      <div className="boxBorder">
       <Image
           src="/pic10.jpeg"
           alt="Picture of the author"
@@ -52,46 +52,41 @@ const Home = () => {
 
 
 
+    <section className="aboutus">
 
-    
-<section className="aboutus">
+    <h1>Why Eminence Needle Art?</h1>
 
-<h1>Why Eminence Needle Art?</h1>
+    <div className="container">
 
-<div className="container">
-
-<div>
-<i className="fa fa-dollar"></i>
-<h2>Affordability</h2>
-<p>
- At Eminence Needle Art our aim is to provide quality outfits at affordable prices!
-</p>
-</div>
+    <div>
+    <i className="fa fa-dollar"></i>
+    <h2>Affordability</h2>
+    <p>
+    At Eminence Needle Art our aim is to provide quality outfits at affordable prices!
+    </p>
+    </div>
 
 
-<div>
-<i className="fa fa-gg"></i>
-<h2>Authenticity</h2>
-<p>
-Any piece purchased at EMINENCE NEEDLE ART has been carefully selected, inspected and is guaranteed authentic.
-</p>
-</div>
+    <div>
+    <i className="fa fa-gg"></i>
+    <h2>Authenticity</h2>
+    <p>
+    Any piece purchased at EMINENCE NEEDLE ART has been carefully selected, inspected and is guaranteed authentic.
+    </p>
+    </div>
 
-<div>
-<i className="fa fa-users"></i>
-<h2>Satisfaction</h2>
-<p>
-We uphold our values and stay true to our promises. When it comes to meeting customer&apos;s needs.
-</p>
-</div>
+    <div>
+    <i className="fa fa-users"></i>
+    <h2>Satisfaction</h2>
+    <p>
+    We uphold our values and stay true to our promises. When it comes to meeting customer&apos;s needs.
+    </p>
+    </div>
 
-</div>
-</section>
+    </div>
+    </section>
 
-     
-
-
-
+      
     <style jsx>
       {`
       @media(min-width: 35em){

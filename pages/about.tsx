@@ -13,13 +13,13 @@ const About = () => {
      <Headertwo {...headings} />
 
      <div className="container">
-        <div>
+        <div className="boxBorder">
           <Image src="/appr3.jpeg" alt="Our Workers"  width="4" height="6" layout="responsive" />
         </div>
-        <div>
+        <div className="boxBorder">
         <Image src="/appr2.jpeg" alt="Our Workers"  width="4" height="6" layout="responsive" />
         </div>
-        <div>
+        <div className="boxBorder">
         <Image src="/appr1.jpeg" alt="Our Workers"  width="4" height="6" layout="responsive" />
         </div>
       </div>

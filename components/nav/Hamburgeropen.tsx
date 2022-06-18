@@ -1,4 +1,4 @@
-import styles from '../styles/Hamburger.module.scss'
+import Image from 'next/image'
 
 type obj = {
     opennav: (e:React.MouseEvent<HTMLDivElement>)=> void
@@ -12,9 +12,7 @@ const Hamburgeropen = ({opennav,name}: obj)=>{
             <div className="hamburger-inner">
                 <div className="btntimes">
                     <div className="strips" onClick={opennav}>
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                       <Image src="/hamburger-icon.png" width="5" height="5" alt="" layout="responsive" />
                     </div>
                 </div>
                 <h1>{name}</h1>
